@@ -1,0 +1,27 @@
+:root {
+  /* Color variables */
+  --color-base: #111111;
+  --color-primary: #333333;
+  --color-secondary: #555555;
+  --color-dark-content: #666;
+  --color-light-content: #a7a7a7;
+  --color-solid-heading: #42446e;
+  --color-heading2: #434343;
+  --color-heading3: #04454d;
+  --color-third: #ebeaed;
+  --color-white: #ffffff;
+  --color-hover: #b96c87;
+  --color-active: #f0f0f0;
+  --color-button-text: #cae0cd;
+  --color-button-background: #107361;
+
+  /* Font variables */
+  --font-family-base: "Poppins", sans-serif;
+  --font-family-second: "DM Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
