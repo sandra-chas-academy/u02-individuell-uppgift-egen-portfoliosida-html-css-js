@@ -1,0 +1,60 @@
+{
+  "workExperience": [
+    {
+      "company": "SJ Stockholmståg AB",
+      "position": "Train Driver Instructor",
+      "location": "Stockholm",
+      "startDate": "March 2024",
+      "endDate": "Present",
+      "employForm": "Full Time"
+    },
+    {
+      "company": "MTR",
+      "position": "Train Driver",
+      "location": "Stockholm, Eskilstuna",
+      "startDate": "Sep 2016",
+      "endDate": "March 2024",
+      "employForm": "Full Time"
+    },
+    {
+      "company": "Stockholmsåg AB",
+      "position": "Train Driver",
+      "location": "Stockholm",
+      "startDate": "Maj 2007",
+      "endDate": "Sep 2016",
+      "employForm": "Full Time"
+    },
+    {
+      "company": "Stockholmståg AB",
+      "position": "Duty Supervisor",
+      "location": "Stockholm",
+      "startDate": "Jan 2004",
+      "endDate": "Maj 2007",
+      "employForm": "Full Time"
+    }
+  ],
+
+  "education": [
+    {
+      "school": "Chas Academy",
+      "degree": "Fullstack Developer JavaScript",
+      "location": "Stockholm",
+      "startDate": "Sep 2024",
+      "endDate": "Present"
+    },
+    {
+      "school": "KTH Royal Institute of Technology",
+      "degree": "Bachelor's degree in Electrical Engineering",
+      "location": "Stockholm",
+      "startDate": "Sep 1996",
+      "endDate": "June 2004"
+    },
+    {
+      "school": "Dokuz Eylül University",
+      "degree": "Faculty of Law",
+      "location": "Izmir",
+      "startDate": "Sep 1989",
+      "endDate": "Not completed"
+    }
+  ]
+}
