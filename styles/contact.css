@@ -6,7 +6,7 @@
   min-width: 500px;
   margin: 150px auto 10px auto;
   padding-top: 60px;
-  padding-bottom: 300px;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,18 +34,21 @@
   .contact-responsive {
     width: 100%;
     min-width: 500px;
-    margin: 90px auto 10px auto;
+    margin: 20px auto 10px auto;
     padding-top: 60px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   .contact-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--color-heading3);
     font-family: var(--font-family-second);
     font-size: 3.625rem;
-    line-height: 70px;
+    line-height: 26px;
     letter-spacing: -1px;
     flex-wrap: nowrap;
   }

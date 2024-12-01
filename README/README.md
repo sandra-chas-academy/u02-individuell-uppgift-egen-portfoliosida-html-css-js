@@ -1,80 +1,56 @@
-# Instruktioner
-
-Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifrån designskiss med Javascript. Du är nu fri att ändra till egen design / layout, samt eget innehåll. Det är dock viktigt att du behåller en sektion för CV ("About me") och en sektion med projekt ("Projects") eftersom du ska vidareutveckla sidan med Javascript på dessa sektioner. 
-
-##Vad du ska göra
-
-Du ska bygga vidare på  u01 - Portfoliosida utifrån designskiss med Javascript. och se till att du följer följande kravställningar: 
-
-###CV i en fil:
-Dina egna utbildningar och tidigare arbetsplatser ska nu ersätta "About me"-sidan. Ta med så mycket som möjligt att ditt "riktiga CV", men iallafall minst tre poster av varje.
-Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format. Denna JSON-fil ska läsas och och generera ditt CV på den tidigare motsvarigheten av "About me" sidan.
-
-
-###Interaktiva scripts:
-Din CV-sida ska innehålla minst två interaktiva JavaScript. Exempel kan vara en modal, slideshow, scroll-effekt, dölja/visa element, o.s.v
-
-###Portfolio:
- Du publicerar minst två uppgifter / projekt från tidigare eller nuvarande studier / arbete inom HTML /CSS
-
-###👉  VG-krav
-
-Din portfolio ska utökas så att den hämtar in publika projekt som finns i din egen Github via API. Den ska visa dessa projekt i din portfolio med namn och beskrivning.
-
-Du får gärna ha både dessa projekt och andra som genereras utifrån JSON-data om du känner för det, eller så ersätter du projekten så det bara är dina Github-projekt. Eventuellt kan du behöva komplettera datan från Github API med t.ex bilder ifrån JSON-datan.
-
-När hämtningen av projekten sker ska det finnas information om att projekten håller på att ladda in så att besökaren inte undrar varför sidan först är tom.
-
-
-
-###Tekniska krav:
-* Validerad med 0 fel på https://validator.w3.org
-* Inga errors i Console
-
-###Sammantfattning av projekt + teoretiska frågor
+# Sammantfattning av projekt + teoretiska frågor
 
 1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
+
+1. Sammanfattning: jag har börjat med att bygga vidare u1-portfolio projektet med javaScript.
+   Jag har inte ändrat själva designen så märkvärdigt men ändrade innehållet på alla sidor.
+   Med presentationstexten, egen CV med flera jobb och utbildningar hämtas från en json fil.
+   Hämtade alla project med title, beskrivning och länken från mina gitHub publica repos via GitHub API's, kombinerad med en json fil för bilder och netlify länkar. Har använd moduler(ES6) på script filer för rendering av header och footer på alla sidor med en function call. Nästan all rendering av html sidor görs med javaScript. Har lagt till en modal med animation på index sidan med både html, css och javaScript. Har på flera ställen element som visas eller döljs, tex: modal knappen, döljer modal i mobil versionen etc. Är validerat, och inga errors i console.
+
+- Index sidan: förutom header och footer som renderas med javaScript innehåller presentationen med bilden responsiv och en modal som visas med button click.
+- About sidan: förutom header och footer innehåller en kort text om mig, om mina jobb och utbildningar med flera poster. Data hämtas från En jason fil som innehåller både jobb delen och utbildnings delen sorterad under workexperiences och educations. Allt renderas med javaScript.
+- Technologies sidan: Alla projekt som finns i sidan har hämtats från mina publica repos med GitHub API och vissa delar i card hämtas från json fill som innehåller bilder och länkar till Netlify. Jag har publicerat alla de projekt på sidan på Netlify.
+  Har försökt organisera filerna i varsin katalog.har jobbat växlande med två olika brancher "dev-kemal" och "dev-kemal2"och main branchen använde merge då och då..
+  Det som var joobigast är att använda data från både en API man fetcar och en json fil och använda delar av deras data i samma funktion och rendering, modal var ganska ny för mig, det tog lite tid att fixa det.
+  Jag kände att jag lät kan rendera html filer med javaSscript och hämta data från API eller json fil.
+
 2. Du svarar på dessa frågor (max 800 ord):
 
-Vad kan man utveckla m.h.a av Javascript inom frontend?
-Vad är JSON och hur används det inom frontend?
-Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
+2a. Vad kan man utveckla m.h.a av Javascript inom frontend?
 
+- Man kan använda javaScript inom frontend kan vara
+- interaktiv gränssnitt: modaler, navigerins menyer, slideshow, scroll-effekt, dölja/visa element mm.
+- Formulär, validering, hantera dem dynamisk, autokomplettering tex.
+- Animeringar och effekter av CSS, responsiv design
+- dynamiska sidor, interaktiva kartor
+- Hantering av media, spelutveckling, E-handel, checkout, AI, maskinlärning och mycket mycket mer...
+  Alltså javaScript är mycket flexibelt. Man utveckla från små till fullständiga komplexa applikationer som körs direkt i webläsaren.
 
+2b. Vad är JSON och hur används det inom frontend?
 
+- JSON (JavaScript Object Notation) är format för att lagra och utbyta data och det är lättare att läsa/skriva av både människor och maskiner. tex data från server eller API.
+- Strukturen är string, den representerar data i form av nyckel-värde par. JSON liknar javaScript-object men egentligen oberoende format som olika progammeringsspråk kan använda.
+  inom frontend kan man använda JSON tex:
+  för dataöverföring mellan frontend och backend "ex: fetch API",
+  att lagra och hantera data i frontend "tex: localStorage".
+  att bygga dynamiska gränssnit "tex dynamisk innehåll på en websida". Det finns flera oråden som JSON kan användas.
 
-##Kriterier för bedömning
+2c. Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och dess protokoll?
 
+- HTTP HyperText Transfer Protokoll är en protokoll som används för att överföra data över webben, också grunden för kommunikationen mellan klienter och servrar.
+- Som frontend utvecklare är det viktig att förstå och behärska HTTP och dess protokoll (regelverk).
+- De flesta webapplikationer integrerar med APIer, tex:REST API'er. Och för att kunna integrera med dem krävs de kunskap om GET, POST, PUT och DELETE. Också statuskoder, headers.
+- man måste förstå tex HTTP-caching (minimera laddsningstid, reducera antal förfrågningar).
+- Grundläggande HTTP-koncept är att känna till:
+  ** GET: Hämta data
+  ** POST: Skicka data till servern
+  ** PUT: Uppdatera resurser
+  ** DELETE: Ta bort resurser
+  ** Status koder: 2xx Success OK, 3xx Redirect, 4xx Error hos klienten, 5xx Server error
+  ** HTTP-Headers: Request headers, Response headers
+  \*\* Cookies och Sessions.
 
-Icke Godkänd (IG), Godkänd (G) eller Väl Godkänd (VG)
+Sammanfattningsvis är HTTP grunden för all webutveckling., och varje utvecklare bör förstå det.
 
-###Godkänd (G)
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen.
-Du visar att du kan utan allvarliga brister eller missar utveckla denna portfoliosida enligt kraven
-Du sammanfattar ditt projekt samt ger ett översiktligt och korrekt svar på frågorna
-
-
-###Väl Godkänd (VG)
-
-Din portfolio-sida uppfyller alla krav enligt kravspecifikationen samt VG-kraven
-Du uppvisar en mer avancerad förståelse för Git genom att jobba med en developer-branch som du sedan mergar i main
-Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt märks eller påverkar slutresultatet
-
-
-
-
-###Börja uppgift / Din inlämning
-* Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
-* Återkoppling ges i Canvas
-
-
-
-
-
-
-
-
-
-
-
-# 
+Mvh
+Kemal
