@@ -11,7 +11,7 @@
     {
       "company": "MTR",
       "position": "Train Driver",
-      "location": "Stockholm, Eskilstuna",
+      "location": "Stockholm",
       "startDate": "Sep 2016",
       "endDate": "March 2024",
       "employForm": "Full Time"
@@ -31,6 +31,14 @@
       "startDate": "Jan 2004",
       "endDate": "Maj 2007",
       "employForm": "Full Time"
+    },
+    {
+      "company": "SRT Standard Radio Telecom",
+      "position": "Development Engineer",
+      "location": "Stockholm",
+      "startDate": "Jan 2000",
+      "endDate": "Sep 2002",
+      "employForm": "Full Time"
     }
   ],
 
@@ -40,21 +48,32 @@
       "degree": "Fullstack Developer JavaScript",
       "location": "Stockholm",
       "startDate": "Sep 2024",
-      "endDate": "Present"
+      "endDate": "Present",
+      "status": "Full Time"
     },
     {
       "school": "KTH Royal Institute of Technology",
       "degree": "Bachelor's degree in Electrical Engineering",
       "location": "Stockholm",
       "startDate": "Sep 1996",
-      "endDate": "June 2004"
+      "endDate": "June 2004",
+      "status": "Full Time"
     },
     {
       "school": "Dokuz Eylül University",
       "degree": "Faculty of Law",
       "location": "Izmir",
       "startDate": "Sep 1989",
-      "endDate": "Not completed"
+      "endDate": "Not completed",
+      "status": "Full Time"
+    },
+    {
+      "school": "Anadolu University",
+      "degree": "Business Adminstration",
+      "location": "Eskisehir",
+      "startDate": "Sep 1986",
+      "endDate": "Maj 1988",
+      "status": "Full Time"
     }
   ]
 }
