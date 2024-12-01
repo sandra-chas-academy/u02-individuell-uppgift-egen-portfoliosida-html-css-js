@@ -28,14 +28,25 @@
   border: 9px solid var(--color-hover);
   border-radius: 50%;
 }
+
+.anime-modal {
+  display: none;
+}
+.show-modal {
+  display: none;
+}
+.mymodal.show {
+  display: none;
+}
 @media screen and (min-width: 600px) {
   .presentation {
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
-    width: 75.25%;
-    height: 350px;
+    width: 76.25%;
+    height: 400px;
     padding: 10px;
+    overflow: hidden;
   }
 
   .presentation .pres-text {
@@ -50,5 +61,77 @@
   .presentation img {
     width: 349px;
     height: 349px;
+  }
+  .mymodal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 12%;
+    top: 15%;
+    width: 75%;
+    height: 75%;
+    overflow: auto;
+    background-color: rgba(153, 140, 140, 0.5);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  .anime-modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px auto 0 auto;
+    width: 50%;
+    height: 50%;
+  }
+  .show-modal {
+    display: block;
+    cursor: pointer;
+    color: var(--color-button-text);
+    background-color: var(--color-button-background);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  .mymodal.show {
+    display: block;
+    opacity: 1;
+  }
+  .modal {
+    position: absolute;
+    background-color: var(--color-button-text);
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    left: 26%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: slideDown 0.5s ease;
+  }
+  .modal-description {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--color-heder);
+    margin: 10px;
+  }
+  @keyframes slideDown {
+    from {
+      transform: translate(-50%, -80%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+    }
+  }
+  .hide-btn {
+    float: right;
+    font-size: 2.5rem;
+    cursor: pointer;
   }
 }

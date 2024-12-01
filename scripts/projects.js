@@ -27,8 +27,6 @@ async function getProjects() {
 }
 
 function renderProjects(data1, data2) {
-  console.log(data1);
-  console.log(data2);
   projectsContainer.innerHTML = "";
 
   for (let i = 0; i < data2.length; i++) {
@@ -44,7 +42,7 @@ function renderProjects(data1, data2) {
             ${project.description}
           </p>
           <p class="tech-stack">
-            Tech stack : <span>HTML , JavaScript, SASS, React</span>
+            Tech stack : <span>HTML, CSS, JavaScript, React</span>
           </p>
         </div>
         <div class="links">
