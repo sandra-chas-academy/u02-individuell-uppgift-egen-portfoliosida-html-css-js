@@ -1,0 +1,106 @@
+{
+  "techStackMobile": [
+    {
+      "source": "icons/HTML.png",
+      "alternative": "HTML"
+    },
+    {
+      "source": "icons/CSS.png",
+      "alternative": "CSS"
+    },
+    {
+      "source": "icons/JS.png",
+      "alternative": "JS"
+    },
+    {
+      "source": "icons/React.png",
+      "alternative": "React"
+    },
+    {
+      "source": "icons/Vector01.png",
+      "alternative": "Tech Icon"
+    },
+    {
+      "source": "icons/logos_bootstrap.png",
+      "alternative": "Bootstrap"
+    },
+    {
+      "source": "icons/Vector1.png",
+      "alternative": "Tailwind CSS"
+    },
+    {
+      "source": "icons/Vector2.png",
+      "alternative": "SaSS"
+    }
+  ],
+
+  "techTools": [
+    {
+      "source": "icons/git.png",
+      "alternative": "Git"
+    },
+    {
+      "source": "icons/Vector4.png",
+      "alternative": "Tech Icon"
+    },
+    {
+      "source": "icons/VSCode.png",
+      "alternative": "VS Code"
+    },
+    {
+      "source": "icons/GitHub.png",
+      "alternative": "GitHub"
+    }
+  ],
+
+  "techStackDesktop": [
+    {
+      "source": "icons/HTML.png",
+      "alternative": "HTML"
+    },
+    {
+      "source": "icons/CSS.png",
+      "alternative": "CSS"
+    },
+    {
+      "source": "icons/JS.png",
+      "alternative": "JS"
+    },
+    {
+      "source": "icons/React.png",
+      "alternative": "React"
+    },
+    {
+      "source": "icons/Vector01.png",
+      "alternative": "Tech Icon"
+    },
+    {
+      "source": "icons/logos_bootstrap.png",
+      "alternative": "Bootstrap"
+    },
+    {
+      "source": "icons/Vector1.png",
+      "alternative": "Tailwind CSS"
+    },
+    {
+      "source": "icons/Vector2.png",
+      "alternative": "SaSS"
+    },
+    {
+      "source": "icons/git.png",
+      "alternative": "Git"
+    },
+    {
+      "source": "icons/Vector4.png",
+      "alternative": "Tech Icon"
+    },
+    {
+      "source": "icons/VSCode.png",
+      "alternative": "VS Code"
+    },
+    {
+      "source": "icons/GitHub.png",
+      "alternative": "GitHub"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <script type="module" src="./scripts/index.js"></script>
+  </head>
+  <body>
+    <header class="header" id="header"></header>
+    <div class="presentation"></div>
+    <!-- Modal som visar innehållet dynamiskt-->
+    <div class="anime-modal">
+      <button class="show-modal" id="show-modal">Visa Modal</button>
+
+      <div class="mymodal" id="mymodal">
+        <div class="modal" id="modal">
+          <span class="hide-btn" id="hide-modal">&times;</span>
+          <p class="modal-description">
+            Hi! <br />This is a modal with animation! <br />
+            I'am<span> Kemal,</span><br />
+            I am studying at <span>Chas Academy</span> to become a<br />
+            full stack developer <br />in <span>JavaScript</span> <br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer id="footer"></footer>
+  </body>
+</html>

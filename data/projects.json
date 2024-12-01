@@ -1,0 +1,44 @@
+[
+  {
+    "tumbnail": "img/img_1.jpeg",
+    "alt": "Project 1",
+    "iconNetlify": "icons/link-chain.png",
+    "iconGithub": "icons/github.png",
+    "lnkPreview": "https://quizgame-kemal.netlify.app/"
+  },
+  {
+    "tumbnail": "img/img_2.jpeg",
+    "alt": "Project 2",
+    "iconNetlify": "icons/link-chain.png",
+    "iconGithub": "icons/github.png",
+    "lnkPreview": "https://quizgame-team1.netlify.app/"
+  },
+  {
+    "tumbnail": "img/img_3.jpeg",
+    "alt": "Project 3",
+    "iconNetlify": "icons/link-chain.png",
+    "iconGithub": "icons/github.png",
+    "lnkPreview": "https://rockpaperscissors-kemal.netlify.app/"
+  },
+  {
+    "tumbnail": "img/img_4.jpeg",
+    "alt": "Project 4",
+    "iconNetlify": "icons/link-chain.png",
+    "iconGithub": "icons/github.png",
+    "lnkPreview": "https://splitthebill-kemal.netlify.app/"
+  },
+  {
+    "tumbnail": "img/img_5.jpeg",
+    "alt": "Project 5",
+    "iconNetlify": "icons/link-chain.png",
+    "iconGithub": "icons/github.png",
+    "lnkPreview": "https://todolist-kemal.netlify.app/"
+  },
+  {
+    "tumbnail": "img/img_6.jpeg",
+    "alt": "Project 6",
+    "iconNetlify": "icons/link-chain.png",
+    "iconGithub": "icons/github.png",
+    "lnkPreview": "https://u02-kemalguclu.netlify.app/"
+  }
+]

@@ -1,0 +1,141 @@
+@import url("base.css");
+@import url("header-footer.css");
+
+.container {
+  width: 100%;
+  min-width: 500px;
+  margin: 10px 10px 10px 30px;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.proj-head {
+  color: var(--color-primary);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 90px 20px 0 20px;
+}
+.cont-para {
+  display: none;
+}
+.card {
+  width: 90%;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 30px 0 rgba(0, 0, 0, 0.19);
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+.tumbnail img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+.proj-info {
+  padding: 15px 20px 15px 28px;
+}
+.proj-info h2 {
+  color: var(--color-base);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+.proj-desc {
+  color: var(--color-base);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+.tech-stack {
+  color: var(--color-base);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+.tech-stack span {
+  color: var(--color-base);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 12px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  padding: 0 30px 10px 20px;
+}
+.links a {
+  text-decoration: underline;
+  color: var(--color-base);
+  padding-left: 10px;
+}
+.prev-git {
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+@media screen and (min-width: 600px) {
+  .container {
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 40px;
+    margin: 60px 10px 10px 200px;
+    padding-top: 30px;
+  }
+
+  .proj-head {
+    color: var(--color-solid-heading);
+    font-size: 42px;
+    margin: 10px 10px 30px 200px;
+  }
+  .cont-para {
+    display: block;
+    color: var(--color-dark-content);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0 10px 50px 200px;
+  }
+  .card {
+    width: 373px;
+    height: 567px;
+  }
+  .tumbnail img {
+    width: 375px;
+    height: 260px;
+  }
+  .proj-info h2 {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .proj-desc {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  .tech-stack {
+    font-weight: 400;
+  }
+  .tech-stack span {
+    color: var(--color-primary);
+    font-weight: 300;
+  }
+  .links {
+    padding: 0 30px 0 20px;
+  }
+  .links a {
+    color: var(--color-primary);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+  }
+}
