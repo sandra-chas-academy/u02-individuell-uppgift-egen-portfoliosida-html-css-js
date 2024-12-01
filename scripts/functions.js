@@ -4,7 +4,7 @@ const edu = document.getElementById("work-edu");
 
 export async function getData() {
   try {
-    const response = await fetch("../scripts/work-edu.json");
+    const response = await fetch("../data/work-edu.json");
     if (!response.ok) {
       throw new Error("HTTP error " + response.status);
     }
