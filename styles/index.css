@@ -1,0 +1,54 @@
+@import url("base.css");
+@import url("header-footer.css");
+
+.presentation {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100%;
+  min-width: 500px;
+  margin: 100px auto 10px auto;
+  padding-top: 60px;
+  padding-left: 10px;
+}
+
+.presentation .pres-text {
+  color: var(--color-heder);
+  width: 600px;
+  height: 297px;
+  padding-top: 45px;
+  font-size: 1.6rem;
+  font-weight: 900;
+  margin: 20px 10px;
+}
+
+.presentation img {
+  width: 300px;
+  height: 300px;
+  border: 9px solid var(--color-hover);
+  border-radius: 50%;
+}
+@media screen and (min-width: 600px) {
+  .presentation {
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 75.25%;
+    height: 350px;
+    padding: 10px;
+  }
+
+  .presentation .pres-text {
+    padding-top: 5px;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 70px;
+    margin-left: 10px;
+    letter-spacing: -1px;
+    flex-shrink: 0;
+  }
+  .presentation img {
+    width: 349px;
+    height: 349px;
+  }
+}
