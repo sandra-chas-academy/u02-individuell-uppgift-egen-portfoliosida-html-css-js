@@ -6,18 +6,18 @@ Denna uppgift går ut på att du bygga vidare uppgift u01 - Portfoliosida utifr�
 
 Du ska bygga vidare på  u01 - Portfoliosida utifrån designskiss med Javascript. och se till att du följer följande kravställningar: 
 
-###CV i en fil:
+### CV i en fil:
 Dina egna utbildningar och tidigare arbetsplatser ska nu ersätta "About me"-sidan. Ta med så mycket som möjligt att ditt "riktiga CV", men iallafall minst tre poster av varje.
 Vilka utbildningar du läst och vilka tidigare arbeten du haft ska ligga i en separat fil i JSON-format. Denna JSON-fil ska läsas och och generera ditt CV på den tidigare motsvarigheten av "About me" sidan.
 
 
-###Interaktiva scripts:
+### Interaktiva scripts:
 Din CV-sida ska innehålla minst två interaktiva JavaScript. Exempel kan vara en modal, slideshow, scroll-effekt, dölja/visa element, o.s.v
 
-###Portfolio:
+###P ortfolio:
  Du publicerar minst två uppgifter / projekt från tidigare eller nuvarande studier / arbete inom HTML /CSS
 
-###👉  VG-krav
+### 👉  VG-krav
 
 Din portfolio ska utökas så att den hämtar in publika projekt som finns i din egen Github via API. Den ska visa dessa projekt i din portfolio med namn och beskrivning.
 
@@ -27,11 +27,11 @@ När hämtningen av projekten sker ska det finnas information om att projekten h
 
 
 
-###Tekniska krav:
+### Tekniska krav:
 * Validerad med 0 fel på https://validator.w3.org
 * Inga errors i Console
 
-###Sammantfattning av projekt + teoretiska frågor
+### Sammantfattning av projekt + teoretiska frågor
 
 1. Du sammanfattar ditt projekt i README.md och reflekterar kring styrkor och ev brister. Max 500 ord.
 2. Du svarar på dessa frågor (max 800 ord):
@@ -43,18 +43,18 @@ Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och d
 
 
 
-##Kriterier för bedömning
+##K riterier för bedömning
 
 
 Icke Godkänd (IG), Godkänd (G) eller Väl Godkänd (VG)
 
-###Godkänd (G)
+### Godkänd (G)
 Din portfolio-sida uppfyller alla krav enligt kravspecifikationen.
 Du visar att du kan utan allvarliga brister eller missar utveckla denna portfoliosida enligt kraven
 Du sammanfattar ditt projekt samt ger ett översiktligt och korrekt svar på frågorna
 
 
-###Väl Godkänd (VG)
+### Väl Godkänd (VG)
 
 Din portfolio-sida uppfyller alla krav enligt kravspecifikationen samt VG-kraven
 Du uppvisar en mer avancerad förståelse för Git genom att jobba med en developer-branch som du sedan mergar i main
