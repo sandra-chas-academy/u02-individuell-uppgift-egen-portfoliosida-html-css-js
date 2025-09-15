@@ -43,7 +43,7 @@ Vad är HTTP och varför bör man som frontendutvecklare ha kunskap om det och d
 
 
 
-##K riterier för bedömning
+## Kriterier för bedömning
 
 
 Icke Godkänd (IG), Godkänd (G) eller Väl Godkänd (VG)
@@ -63,7 +63,7 @@ Du visar att du kan utan brister, eller bara i sådan omfattning att de knappt m
 
 
 
-###Börja uppgift / Din inlämning
+### Börja uppgift / Din inlämning
 * Du börjar och lämnar in din uppgift genom Github Classroom på denna länk.
 * Återkoppling ges i Canvas
 
